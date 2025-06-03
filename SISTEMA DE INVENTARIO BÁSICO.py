@@ -6,7 +6,7 @@ ARCHIVO_CSV = "inventario.csv"
 
 def mostrar_menu():
     print("""
-====== SISTEMA DE INVENTARIO - TIENDA DE ROPA ======
+====== SISTEMA DE INVENTARIO - TIENDA DE PRODUCTOS ORGÁNICOS ======
 
 1. Agregar producto
 2. Buscar producto por ID
