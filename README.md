@@ -1,32 +1,38 @@
-# 👕 Inventario Simple para Tienda de Ropa
+#  🥬 SISTEMA DE INVENTARIO BÁSICO PARA TIENDA DE PRODUCTOS ORGÁNICOS 🍅 
 
-Este proyecto es una aplicación básica en Python que permite gestionar un inventario de productos de una tienda de ropa desde la consola. 
-Está enfocado en el manejo de listas y diccionarios, ideal como ejercicio práctico para quienes están comenzando con programación en Python.
-
----
-
-## 🧩 Funcionalidades
-
-- 📦 Ingreso manual de productos al inventario
-- 🔍 Búsqueda de productos por ID
-- 📋 Visualización detallada del inventario
-- 🔁 Bucle de consultas múltiples con opción de salir
+Este es un sistema de inventario en consola desarrollado en Python, ideal para practicar lógica de programación, estructuras de datos y persistencia con archivos CSV. Permite gestionar productos (agregar, buscar, editar, eliminar y listar), y guarda automáticamente los datos en un archivo.
 
 ---
 
-## 💡 Tecnologías y conceptos aplicados
+## 🧩 Funcionalidades principales
 
-- **Lenguaje**: Python 3
-- **Estructuras de datos**: listas y diccionarios
-- **Entrada/Salida por consola**
-- **Control de flujo**: condicionales, bucles `for` y `while`
-- **Manejo de errores** con `try/except`
+- 📥 **Agregar productos** al inventario con ID único
+- 🔍 **Buscar productos** por ID
+- 📝 **Editar productos** existentes (nombre, precio y cantidad)
+- 🗑️ **Eliminar productos** del inventario
+- 📋 **Mostrar inventario completo** en consola
+- 💾 **Guardar automáticamente en archivo CSV**
+- 🔁 **Menú interactivo** para navegar entre opciones
 
 ---
 
-## ⚙️ Cómo ejecutar el programa
+## ⚙️ Tecnologías utilizadas
 
-1. Clona el repositorio:
+- Python 3.x
+- CSV (módulo `csv`)
+- Entrada/salida por consola
+- Estructuras de datos: diccionarios y listas
+- Validaciones con `try/except`
+
+---
+
+## ▶️ Cómo ejecutar el programa
+
+1. Clona el repositorio o descarga el archivo:
+
+```bash
+git clone https://github.com/ingamezquita/Inventario-Simple.git
+cd Inventario-Simple
 
 ```bash
 git clone https://github.com/ingamezquita/Inventario-Simple.git
